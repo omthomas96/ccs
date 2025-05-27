@@ -1,10 +1,24 @@
 nav {
     background-color: rgb(1, 52, 1);
-    color: papayawhip;
+    color: #f9f6e8;
     padding: 10px;
    }
 div {
     text-align: center;
+   }
+#div1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+   }   
+#div2 {
+    background-color: #acbda1;
+    padding: 20px;
+   }
+.full-bleed {
+    box-shadow: 0 0 0 100vmax #acbda1;
+    clip-path: inset(0 -100vmax);
+);
    }
 h1 {
     font-family: Helvetica, Arial, sans-serif
@@ -14,6 +28,8 @@ h2 {
    }
 p {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 200px;
-    margin-right: 200px;
+   
+   }
+button {
+    float: right;
    }
