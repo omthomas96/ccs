@@ -1,7 +1,6 @@
 nav {
     background-color: rgb(1, 52, 1);
     color: #f9f6e8;
-    padding: 10px;
    }
 main {
     display: grid;
@@ -26,12 +25,17 @@ div {
     margin-right: 200px;
    }  
 #div2 {
+    padding-top: 20px;
     padding-left: 200px;
     padding-right: 200px;
-   } 
-#div3 {
     background-color: #acbda1;
+   } 
+.carousel-inner > .carousel-item > img {
+    margin: auto;
+   }
+#div3 {
     padding: 20px;
+    background-image: url('./site_graphics/container-pattern.png')
    }
 h1 {
     font-family: Helvetica, Arial, sans-serif
