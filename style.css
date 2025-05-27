@@ -21,27 +21,28 @@ div {
    }
 #div1 {
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
    }  
 #div2 {
     padding-top: 20px;
     padding-left: 200px;
     padding-right: 200px;
-    background-color: #acbda1;
+    background-image: url('./site_graphics/green-container.png')
    } 
 .carousel-inner > .carousel-item > img {
     margin: auto;
    }
 #div3 {
     padding: 20px;
-    background-image: url('./site_graphics/container-pattern.png')
+    background-color: #abcecb;
    }
 h1 {
     font-family: Helvetica, Arial, sans-serif
    }
 h2 {
-    font-family: 'Arial Narrow', Arial, sans-serif
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #06423c;
    }
 p {
     font-family: Arial, Helvetica, sans-serif;
