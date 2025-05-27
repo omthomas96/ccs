@@ -3,22 +3,35 @@ nav {
     color: #f9f6e8;
     padding: 10px;
    }
+main {
+    display: grid;
+    grid-template-columns: 1fr min(65ch 100% - 3rem * 2) 1fr;
+    grid-column-gap: 3rem;
+   }
+main > * {
+    grid-column: 2;
+   }
+.full-bleed {
+    grid-column: 1/4;
+    box-shadow: 0 0 0 100vmax #acbda1;
+    clip-path: inset(0 -100vmax);
+   }
 div {
     text-align: center;
+    padding-bottom: 20px;
    }
 #div1 {
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-   }   
+   }  
 #div2 {
+    padding-left: 200px;
+    padding-right: 200px;
+   } 
+#div3 {
     background-color: #acbda1;
     padding: 20px;
-   }
-.full-bleed {
-    box-shadow: 0 0 0 100vmax #acbda1;
-    clip-path: inset(0 -100vmax);
-);
    }
 h1 {
     font-family: Helvetica, Arial, sans-serif
@@ -28,7 +41,6 @@ h2 {
    }
 p {
     font-family: Arial, Helvetica, sans-serif;
-   
    }
 button {
     float: right;
