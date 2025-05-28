@@ -21,13 +21,14 @@ main > * {
     clip-path: inset(0 -100vmax);
    }
 div {
-    text-align: center;
+    
     padding-bottom: 20px;
    }
 #div1 {
     text-align: center;
    }  
 #div2 {
+    text-align: center;
     padding-top: 20px;
     padding-left: 200px;
     padding-right: 200px;
@@ -37,6 +38,7 @@ div {
     margin: auto;
    }
 #div3 {
+    text-align: center;
     padding: 20px;
     background-color: #abcecb;
    }
@@ -71,17 +73,15 @@ h2 {
 p {
     font-family: Arial, Helvetica, sans-serif;
    }
-#contact {
+#contact-button {
     background-color: #06423c;
     color: white;
     padding: 12px 20px;
-    border: #06423c;
     border-radius: 4px;
     cursor: pointer;
    }
-#contact:hover {
-    border: #06423c;
-    background-color: #ffffff;
+#contact-button:hover {
+    background-color: #abcecb;
     color: #06423c;
    }
 #myBtn {
