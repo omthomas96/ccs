@@ -10,6 +10,7 @@
     crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
   <body>
@@ -126,22 +127,21 @@
                 <p>3611 East Hwy. 82<br>Gainesville, TX 76240</p>
                 <p>Email: jthomas@thomasheritagehomes.com</p>
                 <p>Tel: (940) 595-2893</p>
+                <a href="https://www.facebook.com/people/Creative-Container-Solutions/100072139266673/" class="fa fa-facebook"></a>
             </div>  
             <div class="col" > 
               <h2>Leave Us a Comment:</h2>
-              <div class="form-floating mb-3">
-                <input type="name" class="form-control" id="floatingInput" placeholder="Full name" required>
-                <label for="floatingInput">Full name</label>
+              <div class="container">
+                <form action="https://formspree.io/f/xyzwrnoo" method="POST" justify-content="left">
+                  <label for="fname">Full Name</label>
+                  <input type="text" id="fname" name="fullname" placeholder="Full Name">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Email">
+                  <label for="subject">Comment</label>
+                  <textarea id="subject" name="subject" placeholder="Leave us a comment!" style="height:200px"></textarea>
+                  <input type="submit" value="Submit" required>
+                </form>
               </div>
-              <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-                <label for="floatingInput">Email address</label>
-              </div>
-              <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required>Let us here from you!</textarea>
-                <label for="floatingTextarea2">Comments</label>
-              </div>
-              <button type="button" class="btn btn-outline-light">Submit</button>
             </div>
           </div>  
         </div>
