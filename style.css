@@ -28,8 +28,6 @@ main > * {
 #div2 {
     text-align: center;
     padding-top: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
     padding-bottom: 20px;
     background-image: url('./site_graphics/green-container.png')
    } 
