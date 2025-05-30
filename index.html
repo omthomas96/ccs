@@ -9,8 +9,9 @@
     integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" 
     crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+   
   </head>
   
   <body>
@@ -117,7 +118,7 @@
         <h1 id="contact">Let’s Build Something Together!</h1>
         <div class="container text-center">
           <div class="row align-items-center">
-            <div class="col">
+            <div class="col-sm-12 col-md-6">
               <h2>Open Hours:</h2>
                 <p>Mon - Fri: 8am - 4pm<br> ​Saturday: By Appointment</p>
                 <p>3611 East Hwy. 82<br>Gainesville, TX 76240</p>
@@ -125,16 +126,16 @@
                 <p>Tel: (940) 595-2893</p>
                 <a href="https://www.facebook.com/people/Creative-Container-Solutions/100072139266673/" class="fa fa-facebook"></a>
             </div>  
-            <div class="col" > 
+            <div class="col-sm-12 col-md-6"> 
               <div class="container">
                 <form action="https://formspree.io/f/xyzwrnoo" method="POST" justify-content="left">
                   <label for="fname">Full Name</label>
-                  <input type="text" id="fname" name="fullname" placeholder="Full Name">
+                  <input type="text" id="fname" name="fullname" placeholder="Full Name" required>
                   <label for="email">Email</label>
                   <input type="text" id="email" name="email" placeholder="Email" required>
                   <label for="subject">Comment</label>
-                  <textarea id="subject" name="subject" placeholder="Leave us a comment!" style="height:200px"></textarea>
-                  <input type="submit" value="Submit" required>
+                  <textarea id="subject" name="subject" placeholder="Leave us a comment!" style="height:200px" ></textarea>
+                  <input type="submit" value="Submit">
                 </form>
               </div>
             </div>
