@@ -166,3 +166,10 @@ label {
   background-color: white;
   overflow: hidden;
 }
+.footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
