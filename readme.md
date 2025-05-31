@@ -10,4 +10,15 @@
     I used .html, .css, Javascript, and Bootstrap
 
   ##Ideas for future improvement (minimum of 3)
-    I would like to update the gallery with more images, add a map to the contact section, and change the form labels in the contact section to be left justified instead of centered.
+    I would like to update the gallery with more images, add a map to the contact section, and change the form labels in the contact section to be left justified instead of centered. I would like the Floor plans link on the navbar to be a dropdown so that all of the plans can be listed and anchored.
+
+  ## User Stories
+    ###One
+        As a tiny home buyer
+        I want to be able to find the floor plans in two clicks or less
+    ###Two
+        As a construction manager
+        I want several ways to contact the person in charge of custom designs
+    ###Three
+        As a person concered with sustainablity
+        I want information on the companies sustainablity and eco-friendly practices
