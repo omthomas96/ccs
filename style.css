@@ -3,9 +3,13 @@
 }
 .nav-link.active {
   color: #06423c !important;
+  font-weight: bold;
+  font-size: 18px;
 }
 .nav-link.active:hover {
   color: #007bb0 !important;
+  font-weight: bold;
+  font-size: 18px;
 }
 main {
   display: grid;
